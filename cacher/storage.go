@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/cybozu-go/aptutil/apt"
+	"github.com/cornelicorn/aptutil/apt"
 	"github.com/cybozu-go/log"
 	"github.com/pkg/errors"
 )

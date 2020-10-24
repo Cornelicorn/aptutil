@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cybozu-go/aptutil/apt"
+	"github.com/cornelicorn/aptutil/apt"
 	"github.com/cybozu-go/log"
 	"github.com/cybozu-go/well"
 	"github.com/pkg/errors"

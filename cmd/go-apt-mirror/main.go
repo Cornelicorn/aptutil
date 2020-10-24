@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/BurntSushi/toml"
-	"github.com/cybozu-go/aptutil/mirror"
+	"github.com/cornelicorn/aptutil/mirror"
 	"github.com/cybozu-go/log"
 )
 
