@@ -631,10 +631,10 @@ func (m *Mirror) handleResult(r *dlResult, allowMissing, byhash bool) (*apt.File
 	}
 
 	if allowMissing && r.status == http.StatusNotFound {
-		log.Warn("missing file", map[string]interface{}{
-			"repo": m.id,
-			"path": r.path,
-		})
+		// log.Warn("missing file", map[string]interface{}{
+		// 	"repo": m.id,
+		// 	"path": r.path,
+		// })
 		// return no error to continue
 		return nil, nil
 	}
