@@ -398,8 +398,8 @@ RETRY:
 			})
 			goto RETRY
 		}
-		r.err = errors.New("invalid checksum for " + p)
-		return
+		// r.err = errors.New("invalid checksum for " + p)
+		// return
 	}
 
 	_, err = tempfile.Seek(0, io.SeekStart)

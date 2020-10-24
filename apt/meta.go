@@ -66,10 +66,10 @@ func SupportByHash(d Paragraph) bool {
 
 func parseChecksum(l string) (p string, size uint64, csum []byte, err error) {
 	flds := strings.Fields(l)
-	if len(flds) != 3 {
-		err = errors.New("invalid checksum line: " + l)
-		return
-	}
+	// if len(flds) != 3 {
+	// 	err = errors.New("invalid checksum line: " + l)
+	// 	return
+	// }
 
 	size, err = strconv.ParseUint(flds[1], 10, 64)
 	if err != nil {
